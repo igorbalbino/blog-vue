@@ -11,7 +11,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'author', content: ['Igor do E. S. Balbino', 'Vanessa Rodrigues'] },
+      { name: 'keywords', content: 'fazer site, criar site, fazer app, criar app, aprender programação, aprender a programar, nuxt.js, aprender tecnologia, aprender TI' },
       { hid: 'description', name: 'description', content: '' },
+      { hid: 'robots', name: 'robots', content: 'nofollow' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

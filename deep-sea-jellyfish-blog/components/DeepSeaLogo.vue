@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center">
-        <img class=" w-1/4 h-auto" src="~/assets/images/deep-sea-jellyfish-logo-preto.png"/>
+        <img class="w-1/4 h-auto my-8" src="~/assets/images/deep-sea-jellyfish-logo-preto.png"/>
     </div>
 </template>
 

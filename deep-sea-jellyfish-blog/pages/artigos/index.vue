@@ -1,7 +1,10 @@
 <template>
     <div>
         <Header />
-        <ListaArtigos />
+        <main class="flex justify-between">
+            <ListaArtigos />
+            <Sidebar />
+        </main>
     </div>
 </template>
 
@@ -9,6 +12,7 @@
 import Vue from 'vue'
 import Header from '~/components/Header.vue';
 import ListaArtigos from '~/components/ListaArtigos.vue';
+import Sidebar from '~/components/Sidebar.vue';
 
-export default Vue.extend({ components: { Header, ListaArtigos } })
+export default Vue.extend({ components: { Header, ListaArtigos, Sidebar } })
 </script>
